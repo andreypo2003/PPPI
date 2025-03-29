@@ -52,7 +52,7 @@ namespace Notepad
     {
         public void CommitChanges(string message)
         {
-            Console.WriteLine($"Коммит изменений: {message}");
+            Console.WriteLine($"Saving changes: {message}");
         }
     }
 
@@ -60,7 +60,7 @@ namespace Notepad
     {
         public void ExportToPDF(string fileName)
         {
-            Console.WriteLine($"Экспорт в PDF: {fileName}");
+            Console.WriteLine($"Export to PDF: {fileName}");
         }
     }
 
@@ -68,9 +68,9 @@ namespace Notepad
     {
         public void StartAutoSave(int intervalSeconds)
         {
-            Console.WriteLine("Запуск автосохранения...");
+            Console.WriteLine("Saving...");
             Thread.Sleep(intervalSeconds * 1000);
-            Console.WriteLine("Документ автосохранён.");
+            Console.WriteLine("File saved.");
         }
     }
 
@@ -78,12 +78,12 @@ namespace Notepad
     {
         public void Search(string keyword)
         {
-            Console.WriteLine($"Поиск слова: {keyword}");
+            Console.WriteLine($"Searching word: {keyword}");
         }
 
         public void Replace(string oldWord, string newWord)
         {
-            Console.WriteLine($"Замена \"{oldWord}\" на \"{newWord}\"");
+            Console.WriteLine($"Replace \"{oldWord}\" for \"{newWord}\"");
         }
     }
 
