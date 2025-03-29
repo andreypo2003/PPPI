@@ -28,7 +28,7 @@ namespace Notepad
     {
         public void CheckSpelling(string text)
         {
-            Console.WriteLine("Проверка орфографии...");
+            Console.WriteLine("Spell check...");
         }
     }
 
@@ -36,7 +36,7 @@ namespace Notepad
     {
         public void SetTheme(string theme)
         {
-            Console.WriteLine($"Установка темы: {theme}");
+            Console.WriteLine($"Theme setting: {theme}");
         }
     }
 
@@ -44,7 +44,7 @@ namespace Notepad
     {
         public void SetLanguage(string language)
         {
-            Console.WriteLine($"Установка языка интерфейса: {language}");
+            Console.WriteLine($"Setting interface language: {language}");
         }
     }
 
