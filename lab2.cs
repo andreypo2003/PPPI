@@ -7,7 +7,7 @@ namespace Notepad
     {
         public void Display()
         {
-            Console.WriteLine("Отображение пользовательского интерфейса...");
+            Console.WriteLine("Displaying the user interface...");
         }
     }
 
@@ -15,12 +15,12 @@ namespace Notepad
     {
         public void CreateFile(string fileName)
         {
-            Console.WriteLine($"Создание файла: {fileName}");
+            Console.WriteLine($"Creating file: {fileName}");
         }
 
         public void SaveFile(string fileName)
         {
-            Console.WriteLine($"Сохранение файла: {fileName}");
+            Console.WriteLine($"Saving file: {fileName}");s
         }
     }
 
