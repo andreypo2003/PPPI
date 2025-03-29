@@ -7,7 +7,7 @@ namespace Notepad
     {
         public void Display()
         {
-            Console.WriteLine("Displaying the user interface...");
+            Console.WriteLine("Displaying UI...");
         }
     }
 
