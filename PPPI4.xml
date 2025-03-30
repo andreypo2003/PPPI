@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PPPI</name>
+    </assembly>
+    <members>
+        <member name="T:Notebook.UserInterface">
+            <summary>
+            Manages the user interface of the Notepad application.
+            Demonstrates window, menu, and toolbar rendering.
+            </summary>
+        </member>
+        <member name="M:Notebook.UserInterface.Display">
+            <summary>
+            Displays the main user interface (menus, toolbars, etc.).
+            </summary>
+        </member>
+        <member name="T:Notebook.FileManager">
+            <summary>
+            Handles basic file operations such as creation and saving.
+            </summary>
+        </member>
+        <member name="M:Notebook.FileManager.CreateFile(System.String)">
+            <summary>
+            Creates a new file with the specified name.
+            </summary>
+            <param name="fileName">The name of the file to create.</param>
+        </member>
+        <member name="M:Notebook.FileManager.SaveFile(System.String)">
+            <summary>
+            Saves an existing file under the specified name.
+            </summary>
+            <param name="fileName">The name of the file to save.</param>
+        </member>
+        <member name="T:Notebook.SpellChecker">
+            <summary>
+            Provides spelling checks for the Russian and English languages.
+            </summary>
+        </member>
+        <member name="M:Notebook.SpellChecker.CheckSpelling(System.String)">
+            <summary>
+            Checks the spelling of the given text.
+            </summary>
+            <param name="text">Text to be checked for spelling errors.</param>
+        </member>
+        <member name="T:Notebook.ThemeManager">
+            <summary>
+            Manages different theme settings for the user interface (e.g., dark, light).
+            </summary>
+        </member>
+        <member name="M:Notebook.ThemeManager.SetTheme(System.String)">
+            <summary>
+            Applies the specified theme to the application interface.
+            </summary>
+            <param name="theme">The name of the theme to apply.</param>
+        </member>
+        <member name="T:Notebook.LocalizationManager">
+            <summary>
+            Handles localization, allowing multiple language UI support.
+            </summary>
+        </member>
+        <member name="M:Notebook.LocalizationManager.SetLanguage(System.String)">
+            <summary>
+            Changes the interface language to the specified option.
+            </summary>
+            <param name="language">The desired UI language.</param>
+        </member>
+        <member name="T:Notebook.VersionControlIntegration">
+            <summary>
+            Demonstrates a version control integration (e.g., Git).
+            </summary>
+        </member>
+        <member name="M:Notebook.VersionControlIntegration.CommitChanges(System.String)">
+            <summary>
+            Simulates committing changes with a commit message.
+            </summary>
+            <param name="message">A descriptive message of the changes made.</param>
+        </member>
+        <member name="T:Notebook.DocumentExporter">
+            <summary>
+            Exports documents to various formats (e.g., PDF).
+            </summary>
+        </member>
+        <member name="M:Notebook.DocumentExporter.ExportToPDF(System.String)">
+            <summary>
+            Exports the specified file to PDF format.
+            </summary>
+            <param name="fileName">The name of the file to export.</param>
+        </member>
+        <member name="T:Notebook.AutoSaver">
+            <summary>
+            Handles automatic saving of documents at specified intervals.
+            </summary>
+        </member>
+        <member name="M:Notebook.AutoSaver.StartAutoSave(System.Int32)">
+            <summary>
+            Starts automatic saving of the document every specified number of seconds.
+            </summary>
+            <param name="intervalSeconds">Interval (in seconds) for auto-saving.</param>
+        </member>
+        <member name="T:Notebook.SearchAndReplace">
+            <summary>
+            Offers search and replace functionalities for text.
+            </summary>
+        </member>
+        <member name="M:Notebook.SearchAndReplace.Search(System.String)">
+            <summary>
+            Searches for the specified keyword within the text.
+            </summary>
+            <param name="keyword">The keyword to find.</param>
+        </member>
+        <member name="M:Notebook.SearchAndReplace.Replace(System.String,System.String)">
+            <summary>
+            Replaces the old word with a new word throughout the text.
+            </summary>
+            <param name="oldWord">The word to replace.</param>
+            <param name="newWord">The new word to substitute.</param>
+        </member>
+        <member name="T:Notebook.Program">
+            <summary>
+            Entry point demonstrating the Notepad project.
+            </summary>
+        </member>
+        <member name="M:Notebook.Program.Main(System.String[])">
+            <summary>
+            The main entry point of the console application.
+            </summary>
+            <param name="args">Command-line arguments.</param>
+        </member>
+    </members>
+</doc>
